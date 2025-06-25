@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "zero-shot",
+    "prompt": "Solve: 2x - 7 = 15\nExplain your answer clearly with all steps if it's a problem, or examples if it's a concept.",
+    "output": "To solve the equation `2x - 7 = 15`, we will follow these steps:\n\n1. First, add 7 to both sides of the equation to isolate the term with `x` on one side:\n   `2x - 7 + 7 = 15 + 7`\n   This simplifies to `2x = 22`\n\n2. Then, divide both sides by 2 to solve for `x`:\n   `(2x)/2 = 22/2`\n   Simplifying this expression gives us `x = 11`\n\nSo the solution to the equation is `x = 11`. This means that if you substitute `x = 11` back into the original equation, it will be true:\n\n`2(11) - 7 = 15`\n`22 - 7 = 15`\n`15 = 15`, which is true."
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "few-shot",
+    "prompt": "Example 1:\nSolve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nExample 2:\nSolve the equation: 4x - 2 = 10\nAnswer:\nStep 1: Add 2 to both sides \u2192 4x = 12\nStep 2: Divide by 4 \u2192 x = 3\n\nNow solve the equation: Solve: 2x - 7 = 15\nAnswer:",
+    "output": "Step 1: Add 7 to both sides \u2192 2x = 22\nStep 2: Divide by 2 \u2192 x = 11"
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "cot",
+    "prompt": "Solve the following problem step by step: Solve: 2x - 7 = 15\nStep 1: Identify what we want to find.\nStep 2: What operations are being applied to the variable?\nStep 3: Reverse those operations one at a time.\nNow solve and explain your reasoning clearly.",
+    "output": "Step 1: In this equation, we want to find the value of x.\n\nStep 2: The operation being applied to the variable x is subtraction (2x - 7) and then addition (= 15).\n\nStep 3: To solve for x, we will first reverse the operations one at a time.\n\nFirst, let's add 7 to both sides of the equation to get rid of the subtraction:\n\n2x - 7 + 7 = 15 + 7\nThis simplifies to:\n2x = 22\n\nNext, let's divide both sides by 2 to solve for x:\n\n2x / 2 = 22 / 2\nThis gives us:\nx = 11\n\nSo, the solution to the equation 2x - 7 = 15 is x = 11. This means that any value of x equal to 11 will satisfy the given equation."
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "self-ask",
+    "prompt": "Let's break down the problem: Solve: 2x - 7 = 15\nWhat is the unknown we need to find?\nWhat operations are applied to the unknown?\nIn what order should we reverse those operations?\nAnswer step by step, asking and answering each sub-question.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "zero-shot",
+    "prompt": "Explain linear equations\nExplain your answer clearly with all steps if it's a problem, or examples if it's a concept.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "few-shot",
+    "prompt": "Example 1:\nSolve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nExample 2:\nSolve the equation: 4x - 2 = 10\nAnswer:\nStep 1: Add 2 to both sides \u2192 4x = 12\nStep 2: Divide by 4 \u2192 x = 3\n\nNow solve the equation: Explain linear equations\nAnswer:",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "cot",
+    "prompt": "Solve the following problem step by step: Explain linear equations\nStep 1: Identify what we want to find.\nStep 2: What operations are being applied to the variable?\nStep 3: Reverse those operations one at a time.\nNow solve and explain your reasoning clearly.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "self-ask",
+    "prompt": "Let's break down the problem: Explain linear equations\nWhat is the unknown we need to find?\nWhat operations are applied to the unknown?\nIn what order should we reverse those operations?\nAnswer step by step, asking and answering each sub-question.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "zero-shot",
+    "prompt": "A train travels 60 km in 1.5 hours. What's the speed?\nExplain your answer clearly with all steps if it's a problem, or examples if it's a concept.",
+    "output": "This is a problem about calculating speed from distance and time. Here are the steps to solve it:\n\n1. First, we need to find out how many hours have passed in total since the train started traveling. Given that it took 1.5 hours to travel 60 km, we know that it's been 1.5 hours in total (since no other time information is provided).\n\n2. Next, we convert the distance into kilometers per hour (km/h) which is the standard unit for speed. To do this, we divide the total distance by the total time taken:\n\n   Speed = Total Distance / Total Time\n\n3. Plugging in the values from the problem:\n\n   Speed = 60 km / 1.5 hours\n\n4. Perform the division:\n\n   Speed = 40 km/h (approximately, since we're dealing with whole numbers)\n\nSo, the train's speed is approximately 40 kilometers per hour."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "few-shot",
+    "prompt": "Example 1:\nSolve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nExample 2:\nSolve the equation: 4x - 2 = 10\nAnswer:\nStep 1: Add 2 to both sides \u2192 4x = 12\nStep 2: Divide by 4 \u2192 x = 3\n\nNow solve the equation: A train travels 60 km in 1.5 hours. What's the speed?\nAnswer:",
+    "output": "Step 1: Calculate the distance traveled per hour (dph) by dividing the total distance by the time taken \u2192 dph = 60 km / 1.5 hours\nStep 2: The result is the speed of the train, so the answer is dph = 40 km/hour."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "cot",
+    "prompt": "Solve the following problem step by step: A train travels 60 km in 1.5 hours. What's the speed?\nStep 1: Identify what we want to find.\nStep 2: What operations are being applied to the variable?\nStep 3: Reverse those operations one at a time.\nNow solve and explain your reasoning clearly.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "self-ask",
+    "prompt": "Let's break down the problem: A train travels 60 km in 1.5 hours. What's the speed?\nWhat is the unknown we need to find?\nWhat operations are applied to the unknown?\nIn what order should we reverse those operations?\nAnswer step by step, asking and answering each sub-question.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "zero-shot",
+    "prompt": "Factor: x^2 + 5x + 6\nExplain your answer clearly with all steps if it's a problem, or examples if it's a concept.",
+    "output": "To factor the quadratic equation x^2 + 5x + 6, we will be looking for two numbers that multiply to 6 (the constant term) and add up to 5 (the coefficient of the middle term). These numbers are -2 and -3 because (-2)*(-3) = 6 and -2 + -3 = -5.\n\nNow we can rewrite our quadratic as a product of two binomials:\n\nx^2 + 5x + 6 = (x + 2)(x + 3)\n\nThe factors of the original equation are thus (x + 2) and (x + 3). This means that x^2 + 5x + 6 can be factored as a product of two linear expressions."
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "few-shot",
+    "prompt": "Example 1:\nSolve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nExample 2:\nSolve the equation: 4x - 2 = 10\nAnswer:\nStep 1: Add 2 to both sides \u2192 4x = 12\nStep 2: Divide by 4 \u2192 x = 3\n\nNow solve the equation: Factor: x^2 + 5x + 6\nAnswer:",
+    "output": "To factor this quadratic equation, we look for two numbers that multiply to 6 and add up to 5. The numbers are 2 and 3 since their product is 6 and their sum is 5. Now, we write the factored form as (x + 2)(x + 3).\n\nSo, the solution to the equation x^2 + 5x + 6 is:\n\n(x + 2)(x + 3) = 0\n\nSetting each factor equal to zero and solving for x, we have:\n\nx + 2 = 0  => x = -2\nx + 3 = 0  => x = -3\n\nSo the solutions are x = -2 and x = -3."
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "cot",
+    "prompt": "Solve the following problem step by step: Factor: x^2 + 5x + 6\nStep 1: Identify what we want to find.\nStep 2: What operations are being applied to the variable?\nStep 3: Reverse those operations one at a time.\nNow solve and explain your reasoning clearly.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "self-ask",
+    "prompt": "Let's break down the problem: Factor: x^2 + 5x + 6\nWhat is the unknown we need to find?\nWhat operations are applied to the unknown?\nIn what order should we reverse those operations?\nAnswer step by step, asking and answering each sub-question.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "zero-shot",
+    "prompt": "What is a rational number?\nExplain your answer clearly with all steps if it's a problem, or examples if it's a concept.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "few-shot",
+    "prompt": "Example 1:\nSolve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nExample 2:\nSolve the equation: 4x - 2 = 10\nAnswer:\nStep 1: Add 2 to both sides \u2192 4x = 12\nStep 2: Divide by 4 \u2192 x = 3\n\nNow solve the equation: What is a rational number?\nAnswer:",
+    "output": "A rational number is any number that can be expressed as the quotient of two integers, a and b where b \u2260 0. In other words, it can be written in the form p/q, where p and q are integers and q is not equal to zero. Examples include whole numbers (e.g., 5), fractions (e.g., 3/4), and decimal expressions that terminate or repeat in a pattern (e.g., 0.5, 0.25, 0.123456...)."
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "cot",
+    "prompt": "Solve the following problem step by step: What is a rational number?\nStep 1: Identify what we want to find.\nStep 2: What operations are being applied to the variable?\nStep 3: Reverse those operations one at a time.\nNow solve and explain your reasoning clearly.",
+    "output": "Step 1: We want to define what a rational number is.\n\nStep 2: No mathematical operations are being applied to any variables in this problem, but we can describe properties of rational numbers based on their definition.\n\nStep 3: A rational number is a type of real number that can be expressed as the quotient (fraction) of two integers, a and b, where b \u2260 0. This means that every rational number has a form a/b, with a and b being integers and b not equal to zero.\n\nIn other words, every rational number is either a terminating or repeating decimal (fraction) or a fraction in lowest terms. The set of all rational numbers is represented as Q (the lower-case letter \"Q\" for \"quotient\").\n\nFor example, 3/2, 5, -7, 0.3333..., and -1.5 are all examples of rational numbers."
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "self-ask",
+    "prompt": "Let's break down the problem: What is a rational number?\nWhat is the unknown we need to find?\nWhat operations are applied to the unknown?\nIn what order should we reverse those operations?\nAnswer step by step, asking and answering each sub-question.",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  }
+]

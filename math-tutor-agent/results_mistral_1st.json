@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "zero-shot",
+    "prompt": "Solve: 2x - 7 = 15",
+    "output": "To solve the equation for \\(x\\), we need to isolate \\(x\\). Here are the steps:\n\n1. Add 7 to both sides of the equation:\n\n\\[2x - 7 + 7 = 15 + 7\\]\n\\[2x = 22\\]\n\n2. Divide both sides by 2:\n\n\\[\\frac{2x}{2} = \\frac{22}{2}\\]\n\\[x = 11\\]\n\nSo, the solution for \\(x\\) is \\(x=11\\)."
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: Solve: 2x - 7 = 15\nAnswer:",
+    "output": "Step 1: Add 7 to both sides \u2192 2x = 22\nStep 2: Divide both sides by 2 \u2192 x = 11\n\nSo, the solution for the equation 2x - 7 = 15 is x = 11."
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: Solve: 2x - 7 = 15\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "The first step is to get x alone on one side of the equation. To do that, we need to eliminate the number 7 on the left side by adding it to both sides of the equation. Here's how:\n\n2x - 7 + 7 = 15 + 7 (add 7 to both sides)\n\nThis simplifies to:\n\n2x = 22\n\nNow, we have x alone on one side of the equation. The next step is to solve for x by dividing both sides of the equation by 2. Here's how:\n\n2x / 2 = 22 / 2 (divide both sides by 2)\n\nThis simplifies to:\n\nx = 11\n\nSo, the solution is x = 11."
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: Solve: 2x - 7 = 15",
+    "output": "To solve the equation `2x - 7 = 15`, we want to isolate x on one side of the equation. We need to undo the operations performed from left to right, which are multiplication and subtraction. Here's the step-by-step solution:\n\n1. Add 7 to both sides of the equation: `2x - 7 + 7 = 15 + 7` -> `2x = 22`\n2. Divide both sides by 2: `(2x) / 2 = 22 / 2` -> `x = 11`\n\nSo, the solution to the equation is x = 11."
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "zero-shot",
+    "prompt": "Explain linear equations",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: Explain linear equations\nAnswer:",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: Explain linear equations\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: Explain linear equations",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "zero-shot",
+    "prompt": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "output": "To find the speed of the train, we use the formula:\n\nSpeed = Distance / Time\n\nIn this case, the distance is 60 kilometers and the time taken is 1.5 hours (or 1.5 \\* 60 = 90 minutes). So, the speed is:\n\nSpeed = 60 km / 90 min = 0.67 km/min or 67 km/hour\n\nSo, the train's speed is approximately 67 kilometers per hour."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: A train travels 60 km in 1.5 hours. What's the speed?\nAnswer:",
+    "output": "The speed of the train can be found by using the formula: Speed = Distance / Time. In this case, the distance is 60 km and the time is 1.5 hours. So, Speed = 60 km / 1.5 hrs = 40 km/hour."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: A train travels 60 km in 1.5 hours. What's the speed?\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "The first step is to express the distance covered in terms of time (or vice versa) using the given ratio. Since we know the time and the distance, we can set up the proportion:\n\nDistance / Time = Speed\n60 km / 1.5 hours = x (the speed we want to find)\n\nNow, cross-multiply to get rid of the fractions:\n\n(60 * x) = (1.5 * speed)\n\nNext, solve for 'x' by dividing both sides by 1.5:\n\n60 * x = 1.5 * speed\n\nNow, isolate 'x' by dividing both sides by 1.5 again:\n\nspeed = (60 * x) / 1.5\n\nFinally, since we want the speed in terms of km/hour, keep 'x' as the variable and simplify the right side to get:\n\nspeed = 40 * x\n\nThis means that the train's speed is 40 times its hours traveled."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: A train travels 60 km in 1.5 hours. What's the speed?",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "zero-shot",
+    "prompt": "Factor: x^2 + 5x + 6",
+    "output": "To factor the quadratic equation x^2 + 5x + 6, we look for two numbers that multiply to 6 and add up to 5. The pair of numbers that satisfies these conditions is 1 and 6 because (1 * 6) = 6 and 1 + 6 = 7, but since the equation doesn't contain a term with x, we need to find factors of 6 that differ by 4 (since -5 = -4-1).\n\nThe factors of 6 are 1*6, 2*3, so we can rewrite it as:\n\nx^2 + 5x + 6 = (x+1)(x+6)\n\nSo the factored form is (x + 1)(x + 6)."
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: Factor: x^2 + 5x + 6\nAnswer:",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: Factor: x^2 + 5x + 6\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: Factor: x^2 + 5x + 6",
+    "output": "The given equation is a quadratic equation in the form ax^2 + bx + c = 0. To factor this equation, we can look for two numbers whose product is equal to the constant term (c) and whose sum is equal to the coefficient of the middle term (b). In this case, we are looking for two numbers that multiply to 6 (c) and add up to 5 (b).\n\nThe factors of 6 that add up to 5 are 2 and 3. So, the factored form of the given equation is:\n\nx^2 + 5x + 6 = (x + 2)(x + 3)\n\nNow we have factored the quadratic equation!"
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "zero-shot",
+    "prompt": "What is a rational number?",
+    "output": "A rational number is any number that can be expressed as the quotient or fraction p/q, where p and q are integers (whole numbers) and q cannot equal zero. This includes all whole numbers (integers), all fractions, and some decimal numbers that terminate (have a repeating pattern of digits). Examples of rational numbers include 3, 5/2, 7.333... (where the digits 3, 3, 3... repeat infinitely). In contrast to rational numbers are irrational numbers, such as the square root of 2 or pi (\u03c0), which cannot be expressed as a simple fraction and have non-repeating or infinite, non-repeating decimals."
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: What is a rational number?\nAnswer:",
+    "output": "A rational number is any number that can be expressed as the quotient of two integers, a/b where b \u2260 0. In decimal form, a rational number terminates or repeats in a pattern. Examples include: 3, 5/2, 0.75, and 1.333... (where the 3's repeat infinitely)."
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: What is a rational number?\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "[Exception]: Command '['ollama', 'run', 'mistral']' timed out after 60 seconds"
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: What is a rational number?",
+    "output": "A rational number is any number that can be expressed as the quotient or fraction p/q of two integers, where p and q are integers and q \u2260 0. In other words, if you can undo a division operation to get an integer, then the result is a rational number. This includes all fractions, whole numbers (which are just special cases of fractions with the denominator being 1), and decimal numbers that terminate or repeat a pattern (such as 0.5, 3.14159265..., 0.3333...). Numbers like the square root of 2, e, or pi are irrational numbers because they cannot be expressed as the quotient of two integers."
+  }
+]

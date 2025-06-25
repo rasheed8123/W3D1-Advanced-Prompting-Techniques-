@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "zero-shot",
+    "prompt": "Solve: 2x - 7 = 15",
+    "output": "To solve the given equation, divide both sides by 7 and take the second difference (i.e., subtract 7 from both sides):\n\n2x - 7 = 15\n2(x-7) = 15\n(x+7)/2 = x/2\nx = (-12 + 3)/6\nx = -10.5\n\nTherefore, the answer is $-10.5$"
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: Solve: 2x - 7 = 15\nAnswer:",
+    "output": "Subtracting 4 from both sides and dividing both sides by 3 gives\n\nx = 5\n\nSolving for x, we get\n\nx = 5\n\nSolved."
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: Solve: 2x - 7 = 15\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "First, we need to identify the goal since we are trying to solve a system of equations. In this case, the goal is to isolate the variable x.\nNext, we will proceed with the first step:\n1. Identify the goal and remove it from the equation\nIn the given equation, the goal is x - 7 = 15. Since we want to solve for x, we can simply write x as a constant term (i.e., x = 0). This leaves only the second term on the left-hand side of the equation: 2x - 7\n\nSo, our first step is to substitute 0 into the equation. By doing this, we've reduced the equation to the following form:\n2x = 15 - 7\nx = (15 - 7) / 2 = 6\n\nTherefore, the goal of isolating x is accomplished by using 0 as a constant term and dividing both sides by 2. The resulting expression is:\n(15 - 7) / 2 = 18 / 4\nx = (18 + 4)/ 2 = 14\n\nTherefore, our final result is: x = 14"
+  },
+  {
+    "query": "Solve: 2x - 7 = 15",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: Solve: 2x - 7 = 15",
+    "output": "According to the given text, the operations needed to undo (i.e., reverse) this mathematical problem are:\n- Multiply the first two numbers (-2 and 7) by each other (2 * 7), which gives us a sum of -15.\n- Subtract the second number (-1) from the third number (1), which gives us a difference of 16 (1 - 1 = 16).\n- Divide the first number (2) by the second number (1), which gives us a quotient of 2 and a remainder of 0.\n\nSo, the solution to this problem is:\nMultiply (-2) by 7 to get -15.\nSubtract 1 from 1 (i.e., 1 minus 1) to get 16.\nDivide 2 by 1 (to take away the 1 we just added), getting a remainder of 0.\nMultiply the result by 7 to get 15.\nSo, our answer is: 2x - 7 = 15."
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "zero-shot",
+    "prompt": "Explain linear equations",
+    "output": "Linear equations involve two variables (x and y), which can represent different quantities or quantities that are related to each other. Linear equations are used in a variety of applications, including:\n\n1. Calculating the value of a quantity given another quantity: If you know x and y, you can calculate the value of some other quantity based on these two variables. For example, if you have the values x=5 and y=6, you could use this information to determine the value of z = 3x + 2y.\n\n2. Solving algebraic problems: Linear equations represent relationships between variables, which can be used to solve various types of algebraic problems. For instance, if you have the equation ax+b = c, you can solve this problem by substituting values for x and a. In this case, ax+b = 0 and ax= -2bc would give the solution (x=-2b/a).\n\n3. Solving systems of linear equations: Linear equations are used to solve systems of linear equations that involve multiple variables. For example, if you have the equation ax + by = c, then ax+by = 0 can be solved by multiplying both sides by -b and adding them. This gives the solution (a=c/b).\n\n4. Visualizing relationships: Linear equations can help visualize relationships between variables. By plotting the values of x and y against each other, you can see how a linear relationship might look like in terms of its shape or slope.\n\nIn summary, linear equations are used to calculate values of quantities given other quantities based on their relationships. They can also be used to solve algebraic problems, find solutions to systems of linear equations, and create visual representations of linear relationships."
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: Explain linear equations\nAnswer:",
+    "output": "To solve a linear equation, we follow the following steps:\n\n1. Subtract 4 from both sides to get rid of the constant term (x=0) and obtain the equation: 3x - 15 = 0\n2. Divide both sides by 3 to get x as a fraction: 3/15 = x/6\n3. Simplify x by multiplying both sides by 6: 6(x-6) = 19\n4. Rewrite the equation with the same variables as before, but in terms of x and y: y = -7/(6*x)\n5. Solve for y by using the quadratic formula: y = (6x)/(-3)\n6. Finally, solve the original equation for x: 3x = 19/6 * (-3)\n\nNow we have both sides of the equation as fractions and we can simplify them to get the answer."
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: Explain linear equations\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "Solely focusing on the first step of solving a linear equation, we must identify the goal. In this case, isolating the variable of interest (x).\n\nFirstly, let's start by understanding the difference between a linear function and other functions like quadratic or exponential. A linear function has a constant term along with a series of variables (x1, x2, ...), which are represented as coefficients in the equation. Here's an example:\n\n$$y = ax + b$$\n\nHere, \"a\" is the constant term and \"b\" is the variable term. The coefficient of the variable is simply written as \"(x1, x2, ...)\" because this represents a number that needs to be added or subtracted from each term to get the equation for x. In our first step, we'll start by isolating the constant term and writing it as \"(a0, a1, a2, ...)\".\n\nAs for the second step, let's look at the quadratic function with three variables:\n\n$$y = ax^2 + bx + c$$\n\nHere, \"a\" is the constant term, \"b\" is the variable term, and \"c\" is the constant term. We can write this as \"(ax, ay, az, ...)\". In our first step, we'll start by isolating the constant term and writing it as \"(ax0, ..., ax2, ...)\".\n\nI hope that helps! Let me know if you have any more questions."
+  },
+  {
+    "query": "Explain linear equations",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: Explain linear equations",
+    "output": "1. Determine the number of variables (n) and degrees of freedom (dof) of both the dependent variable (y) and explanatory variable(s) (x). In this case, we have n = 2, dof = 2 because there are two independent variables (x1, x2) involved.\n2. Find the values of y for which x1 = c1 and x2 = c2 by solving:\ny = c1*x1 + c2*x2\nSolving this equation with respect to x1 yields:\nc1 = (y - y0)/(x1-x0)\nwhere y0 is the value of y at the origin (i.e., when all variables are set to zero), and x1 and x2 are the values at which we want to find the new values of y.\n3. Repeat step 2 with respect to x2, replacing c1 by c2:\ny = c1*x1 + c2*x2\nSolving this equation with respect to x2 yields:\nc2 = (y - y0)/(x2-x0)\n4. Finally, substitute the new values of y and x into the original equation (y = c1 * x1 + c2 * x2):\ny = c1*x1 + c2*x2 \nSolve this linear system for x1 and x2:\nx1 = (y - c1)/c2\nx2 = (y - c1)/c2\n5. Plug in the new values of x1 and x2 into the original equation to obtain a quadratic equation:\n(y - y0)\u00b2 + 4*c1*c2*(x1-x0)^2 + (-1)^k * b^2 = 0\nSolving this quadratic equation using a computer algebra system (such as MATLAB or Mathematica) will give us the solution x1 and x2, which can be used to solve for y.\n\nIn this case, the linear equations are given by:\ny = 3*x + 4\ny = -2*x + 5\nSolving these linear equations using MATLAB gives us the values of x and y at (0, 1). This gives us our solution y = 2."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "zero-shot",
+    "prompt": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "output": "The train is traveling at a speed of approximately 72 kilometers per hour (km/h) for every 1.5 hours it travels, i.e., if the total distance traveled in 60 km divided by the time elapsed in those 60 km is equal to 1.5, then the train's speed will be approximately 72 km/h (i.e., 72 x 60 / 360)."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: A train travels 60 km in 1.5 hours. What's the speed?\nAnswer:",
+    "output": "To solve this equation, we need to apply step 1 (subtraction) and step 2 (division) on both sides.\n\nSubtraction:\n-3x + 4 = 15 - 4\n-3(5) = 0\n0 = 3(5)\n\nDivision:\n5x = 60 / 3\n5(5) = 21\n5 = 15\n\nSolved: Speed of a train is calculated as follows:\nSpeed = (X - 5) * 3 / Time\nWhere X is the speed in km/h, and Time is the number of hours. The equation simplifies to:\nSpeed = (60-5) * 3 / 4\nSpeed = 20.8km/h\n\nThe calculated speed is 21km/hr or approximately 14.3 miles per hour."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: A train travels 60 km in 1.5 hours. What's the speed?\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "First, we need to isolate x:\n- The train travels 60 km in 1.5 hours, so the total distance traveled is 60 km.\n- Therefore, the total time spent on the road (travel time) is 1.5 hrs = 60/1.5.\n\nSo, what's our goal? Our goal is to isolate x. In other words, we want to find out what value of x makes the total distance traveled be equal to the total time spent on the road.\n\nThe equation for finding the speed of a train traveling 60 km/hr in one hour is: speed = (distance traveled)/(total time spent) = (60km/1.5h)/60m = 35km/h\n\nSince we have our goal, x (the value of the independent variable), and we know that the total distance traveled is 60 km and the total time spent on the road is 1.5 hrs, we can solve for x:\n- 60km = (35km/h)*(1.5hrs)\n- 60km = (35/2.45) * (6hrs)\n- 60km = 170m / (2.45*6hrs)\n- 60km = 207.5m / (6hrs * 2.45)\n- x = (207.5/6) * 6hrs * 2.45\n- x = 123.8m/h\n\nTherefore, the speed of the train is 123.8 m/h."
+  },
+  {
+    "query": "A train travels 60 km in 1.5 hours. What's the speed?",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: A train travels 60 km in 1.5 hours. What's the speed?",
+    "output": "The operations needed to undo this math problem are:\n- Multiply: The number of kilometers traveled is equal to (60 * 3) / 1.5 = 18.5, which can be divided by 2.5 to get the speed.\n- Dividing: To divide 60 km by 1.5, we first subtract 18.5 (which is half of 60 km) from each side. Then, we use the rule of quotient division: (60 / 1.5) / 2 = 3.75, which gives us the speed as the quotient divided by the dividend.\n\nSo, the final answer to this problem is: The speed is equal to 3.75 km/h or approximately 4 mph."
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "zero-shot",
+    "prompt": "Factor: x^2 + 5x + 6",
+    "output": "Factor: (x**2) + 5*x + 6 = (x*x - 6) + 18 = (-6 + 18)/(x * x) = (-6/(x^2)) + 18/((x^2)*x)\nwhere x is a constant."
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: Factor: x^2 + 5x + 6\nAnswer:",
+    "output": "[Exception]: Command '['ollama', 'run', 'tinyllama']' timed out after 60 seconds"
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: Factor: x^2 + 5x + 6\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "Isolating a variable in a polynomial involves finding its roots or factors. To isolate the term x^2 + 5x + 6, we must first find its roots. The solution is:\n\nx^2 + 5x + 6 = (x - 2)(x + 3)\nx^2 + 10(x + 2) = (x + 4)(x + 2)\n\nwhere x represents the variable.\n\nSubstituting these values into the original equation yields:\n\n(x - 2)^2 + 5(x + 3)^2 = (x + 4)^2 + 10(x + 2)^2\n\nSolving for x using quadratic equations:\n\nx = -3/7 + 6i\nx = -0.8974 + 16.5j\n\nThese values are the roots of the equation."
+  },
+  {
+    "query": "Factor: x^2 + 5x + 6",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: Factor: x^2 + 5x + 6",
+    "output": "Our initial operation is the factorization of \"x^2 + 5x + 6\". We need to undo both addition and subtraction, since we can't apply either one to a variable that isn't yet known.\nTo undo the addition:\n1. Take the first two terms from the factored expression (x^2 + 5x) and subtract them from x (which has already been set to 0 by the first step):\n    -1.0000 + 5.0000 = -6.0000\n\nSubtracting this value from x (the current value of \"x\") gives us:\n-6.0000 / x = -6.0000 / 0 = 0.0000\n\nTherefore, we set x to its original value (i.e., 0). Since x was never changed during the first step of factoring \"x^2 + 5x\", we can safely undo the addition and substitute the new value for x in our second step.\nTo undo the subtraction:\n1. Take the last two terms from the factored expression (x^2 + 5x - 6) and subtract them from x to get:\n    -6.0000 + 5.0000 = -11.0000\n\nSubtracting this value from x gives us:\n-11.0000 / x = -11.0000 / 0 = 0.0000\n\nWe can safely set x to its original value (i.e., 0) since we didn't change the value during the first step of factoring \"x^2 + 5x\". Therefore, we can substitute the new value for x in our second step.\nSo, undoing both addition and subtraction gives us:\n-11.0000 / x = -6.0000 / 0 = 0.0000\nSet x to its original value (i.e., 0) since we didn't change the value during the first step of factoring \"x^2 + 5x\". And voila! We have solved the initial problem."
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "zero-shot",
+    "prompt": "What is a rational number?",
+    "output": "A rational number is a real number that can be expressed in the form of an integer raised to a power with no remainder when the term is divided by the square root of the remainder (i.e., if the remainder is divisible by the square root). For example, let's say you have a fraction:\n\n- 3/4 = 1/2 * \u221a2\n\nThis becomes a rational number because 1/2 is an integer raised to the power of 2 with no remainder (i.e., when we divide 1/2 by the square root, we get 0). Rational numbers can be thought of as real numbers with additional information called irrationality."
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "few-shot",
+    "prompt": "Solve the equation: 3x + 4 = 19\nAnswer:\nStep 1: Subtract 4 from both sides \u2192 3x = 15\nStep 2: Divide both sides by 3 \u2192 x = 5\n\nSolve: What is a rational number?\nAnswer:",
+    "output": "A rational number is any real number that can be written as a fraction with a numerator and a denominator, where the numerator is greater than or equal to 0 and less than or equal to the denominator. In this case, we have 3x = 15, which can be rewritten as x = 5, since 3x > 0 (i.e., x < 19). The result is a rational number, indicating that 3x is a solution to the given equation."
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "cot",
+    "prompt": "Solve the equation step by step: What is a rational number?\nFirst, identify the goal. We want to isolate x.\nNext, what is the first step?",
+    "output": "In order to solve this equation, we need to identify the goal. In this case, our goal is to isolate the variable x.\n\nNext, what is the first step?\n\nTo isolate a variable, we follow these steps:\n1. Identify the variable. In this case, we want to isolate x from the equation.\n2. Observe that x can be represented as a ratio of two terms (a/b and b/c).\n3. Use the ratio formula to simplify the equation:\n    x = (a + b)/(c + d)\n4. Replace x with its value. In this case, we want to replace x with its value, which is 1/2 (since we are solving for x).\n\nBy following these steps, we can solve the equation:\n- For a rational number, x = 1/2"
+  },
+  {
+    "query": "What is a rational number?",
+    "style": "self-ask",
+    "prompt": "To solve this math problem, we should first ask: What operations do we need to undo?\nOnce we answer that, we can proceed step by step.\nSolve: What is a rational number?",
+    "output": "Yes, you are right. Let me explain in more detail what operations we need to undo for solving a rational number:\n\n1. Addition: If we have two rational numbers $a$ and $b$, then the sum of their denominators is always greater than or equal to the product of their denominators. So, if we add the denominators $d_a$ and $d_b$ of $a$ and $b$ respectively, the difference between their denominators becomes:\n\n    $d_a + d_b$ = ($d_a/d_b)$ * $d_a$\n    \n    If $d_a > d_b$, then we can divide both sides by $d_b$ to get:\n\n    $d_a/d_b$ = (($d_a/d_b)$ * $d_a$) / ($d_b$ * $d_a$)\n    \n    And if $d_b > d_a$, then we can divide both sides by $d_a$ to get:\n\n    ($d_a/d_b$) / ($d_b$ * $d_a$) = (($d_a/d_b) * $d_b$) / ($d_a$ * ($d_b$ + $d_a$))\n    \n    So, we need to undo the operation that resulted in $d_b$ being greater than $d_a$. Let's assume we have subtracted one:\n\n    $(d_a/d_b) * $d_a = ($d_b$ + $d_a$)/$d_b$\n    \n    Now, let's substitute $d_a$ for $d_b$ and $d_a$ for $d_b+d_a$:\n\n    $($d_b + $d_a) * ($d_b + $d_a)/($d_b + $d_a)$ = $d_b + $d_a\n    \n    So, to undo the operation of subtracting one, we need to multiply both sides by $d_b$:\n\n    $d_a * ($d_b + $d_a) = d_b + d_a$\n    \n    So, we can undo the operation and obtain the sum of their denominators:\n\n    $d_a / (d_b + $d_a) = d_a / d_b$ \n    \nSo, when we want to add two rational numbers, we need to add their denominators."
+  }
+]
