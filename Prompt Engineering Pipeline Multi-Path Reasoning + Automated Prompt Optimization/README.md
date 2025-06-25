@@ -21,8 +21,7 @@ project/
 └── README.md
 
 yaml
-Copy
-Edit
+
 
 ---
 
@@ -43,8 +42,7 @@ You'll be prompted to enter a math/logic/code problem (e.g. Solve: 2(x + 3) = 16
 To evaluate performance:
 
 bash
-Copy
-Edit
+
 python evaluation.py
 📊 Evaluation Metrics
 Accuracy (% correct)
@@ -67,22 +65,19 @@ Built as part of Misogi AI Week – Day 3
 Input:
 
 makefile
-Copy
-Edit
+
 Solve: 2(x + 3) = 16
 Output:
 
 yaml
-Copy
-Edit
+
 ✅ Final Answer: 5
 Votes: {'5': 3, '6': 1, '9': 1}
 📘 License
 MIT
 
 yaml
-Copy
-Edit
+
 
 ---
 
