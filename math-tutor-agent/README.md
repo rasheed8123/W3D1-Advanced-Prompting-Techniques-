@@ -15,8 +15,7 @@ math-tutor-agent/
 └── README.md # This file
 
 yaml
-Copy
-Edit
+
 
 ---
 
@@ -31,8 +30,7 @@ cd math-tutor-agent
 No external dependencies other than Python and Ollama CLI.
 
 bash
-Copy
-Edit
+
 # Optional if using virtualenv
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
@@ -42,15 +40,13 @@ Install Ollama: https://ollama.com/download
 Then pull the Mistral model:
 
 bash
-Copy
-Edit
+
 ollama pull mistral
 ⚠️ Make sure ollama is available in your system PATH.
 
 🚀 Running the Agent
 bash
-Copy
-Edit
+
 python tutor_agent.py
 This will:
 
@@ -64,13 +60,11 @@ Save results to responses.json
 To evaluate performance across prompts (accuracy, reasoning, hallucinations, consistency):
 
 bash
-Copy
-Edit
+
 python evaluate.py
 Sample Output:
 yaml
-Copy
-Edit
+
 📊 Evaluation Summary:
 Accuracy:         4 / 20
 Reasoning:        5 / 20
