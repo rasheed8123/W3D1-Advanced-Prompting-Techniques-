@@ -24,7 +24,7 @@ yaml
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/math-tutor-agent.git
+
 cd math-tutor-agent
 2. Install Python Requirements (if any)
 No external dependencies other than Python and Ollama CLI.
